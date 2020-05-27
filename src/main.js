@@ -35,7 +35,7 @@ class main extends Component {
     let formData = new FormData();
     formData.append('tx',this.state.tx);
     formData.append('val',this.state.val);
-    const url = "http://filmengineer.000webhostapp.com/insert.php";
+    const url = "https://filmengineer.000webhostapp.com/insert.php";
     Axios.post(url,formData)
       .then(res=>alert('Saved'))
       .catch(error=>console.log(error));
