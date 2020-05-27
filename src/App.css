@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.App-logo {
+  height: 20vh;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+   
+
+  }
+}
+
+.App-header {
+  background-color:whitesmoke;
+  border-radius: 12px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-image: url('/phone.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(12000deg);
+  }
+}
+
+.tt{
+  width: 30%;
+  font-size: medium;
+}
+
+.but{
+  background-color: blueviolet;
+  border: blueviolet;
+  color: whitesmoke;
+  cursor: pointer;
+  width: 10%;
+  font-size: medium;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    /*background-color: rgb(175, 173, 173);*/
+   
+}
+
+.nav-link{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+li{
+  font-weight: bolder;
+  font-size: larger;
+}
+.wh{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  
+  
+}
+.wh p{
+  font-weight: bolder;
+}
+hr{
+  
+  color: blueviolet;
+  width: 100%;
+  height: 1px;
+  border-top: 4px dashed;
+}
+.home{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px 20px black;
+
+}
+
+
+@media screen and (max-width: 800px){
+ 
+  .tt{
+    margin-left: 19%;
+    width: 50%;
+    font-size: medium;
+  }
+  .App-header {
+    background-color:whitesmoke;
+    border-bottom-right-radius: 82px;
+    border-bottom-left-radius: 82px;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-image: url('/phone.png');
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 105%;
+  }
+   .App-header p{
+     margin-left: 20%;
+
+   } 
+   .lk{
+     margin-left: 18%;
+   }
+   @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(2000deg);
+
+    }
+  }
+  .but{
+  background-color: blueviolet;
+  margin-left: 15%;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  font-size: medium;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  margin-top: -74%;
+
+}
+.nav-link{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.head{
+  width: 100%;
+  
+  
+}
+}
