@@ -17,7 +17,12 @@
 }
 
 .App-header {
+  
+  background-image: url('/phone.png')!important;
+  background-repeat: no-repeat;
+  background-size: initial;
   background-color:whitesmoke;
+  background-position: absolute;
   border-radius: 12px;
   min-height: 80vh;
   display: flex;
@@ -26,9 +31,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-  background-image: url('/phone.png');
-  background-repeat: no-repeat;
-  background-size: initial;
+  
   
 }
 
@@ -128,7 +131,7 @@ hr{
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    background-image: url('/phone.png');
+    background-image: url('/phone.png')!important;
     background-attachment: fixed;
     
     background-repeat: no-repeat;
