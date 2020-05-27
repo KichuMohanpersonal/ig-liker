@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ig-liker/static/css/main.8800a31c.chunk.css",
+    "main.css": "/ig-liker/static/css/main.e4b8f3a7.chunk.css",
     "main.js": "/ig-liker/static/js/main.b1b5062d.chunk.js",
     "main.js.map": "/ig-liker/static/js/main.b1b5062d.chunk.js.map",
     "runtime-main.js": "/ig-liker/static/js/runtime-main.f6558f9a.js",
@@ -8,15 +8,15 @@
     "static/js/2.9cc0cf03.chunk.js": "/ig-liker/static/js/2.9cc0cf03.chunk.js",
     "static/js/2.9cc0cf03.chunk.js.map": "/ig-liker/static/js/2.9cc0cf03.chunk.js.map",
     "index.html": "/ig-liker/index.html",
-    "precache-manifest.8cc4ca8d4786f5f5a516fca08b9f9014.js": "/ig-liker/precache-manifest.8cc4ca8d4786f5f5a516fca08b9f9014.js",
+    "precache-manifest.ff2db306c1f2e24c6af2cdc57cfaf7a1.js": "/ig-liker/precache-manifest.ff2db306c1f2e24c6af2cdc57cfaf7a1.js",
     "service-worker.js": "/ig-liker/service-worker.js",
-    "static/css/main.8800a31c.chunk.css.map": "/ig-liker/static/css/main.8800a31c.chunk.css.map",
+    "static/css/main.e4b8f3a7.chunk.css.map": "/ig-liker/static/css/main.e4b8f3a7.chunk.css.map",
     "static/js/2.9cc0cf03.chunk.js.LICENSE.txt": "/ig-liker/static/js/2.9cc0cf03.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f6558f9a.js",
     "static/js/2.9cc0cf03.chunk.js",
-    "static/css/main.8800a31c.chunk.css",
+    "static/css/main.e4b8f3a7.chunk.css",
     "static/js/main.b1b5062d.chunk.js"
   ]
 }
