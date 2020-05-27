@@ -18,7 +18,7 @@
 
 .App-header {
   
-  background-image: url('/phone.png')!important;
+  background-image: url('/phonee.png')!important;
   background-repeat: no-repeat;
   background-size: initial;
   background-color:whitesmoke;
@@ -131,7 +131,7 @@ hr{
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
-    background-image: url('/phone.png')!important;
+    background-image: url('/phonee.png')!important;
     background-attachment: fixed;
     
     background-repeat: no-repeat;
